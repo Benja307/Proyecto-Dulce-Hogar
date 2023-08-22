@@ -134,5 +134,210 @@ i{
 
 .segundo-item p{
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 192, 203, .5);
+    background-color: rgba(255, 0, 128, .4);
+}
+
+/* Tienda */
+
+.grid-container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,250px);
+    gap: 10px;
+}
+
+.item-tienda-1{
+    background-image: url('../img/beso-fresa.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-2{
+    background-image: url('../img/Bananitas.jpg');
+    background-size: cover;
+}
+
+.item-tienda-3{
+    background-image: url('../img/gusano-pica.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-4{
+    background-image: url('../img/beso-twist.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-5{
+    background-image: url('../img/aros-fresa.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-6{
+    background-image: url('../img/marshmallow-twist.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-7{
+    background-image: url('../img/volcan-rosa.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-8{
+    background-image: url('../img/volcan-azul.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-9{
+    background-image: url('../img/marshmallow-camping.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-10{
+    background-image: url('../img/marshmallow-relleno.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-11{
+    background-image: url('../img/rocklets.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-12{
+    background-image: url('../img/m&m.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-13{
+    background-image: url('../img/confites.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-14{
+    background-image: url('../img/paleta.jpeg');
+    background-size: cover;
+}
+
+.item-tienda-15{
+    background-image: url('../img/donas.jpeg');
+    background-size: cover;
+}
+
+.info-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 128, .4);
+    color: grey;
+}
+
+.info-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 0, .4);
+    color: grey;
+}
+
+.info-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 0, .4);
+    color: grey;
+}
+
+.info-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, .4);
+    color: grey;
+}
+
+.info-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, .4);
+    color: grey;
+}
+
+.info-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, .4);
+    color: grey;
+}
+
+.info-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(159, 213, 209, .4);
+    color: grey;
+}
+
+.info-8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 255, .4);
+    color: grey;
+}
+
+.info-9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 64, 0, .4);
+    color: grey;
+}
+
+.info-10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(93, 193, 185, .4);
+    color: grey;
+}
+
+.info-11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(100, 28, 52, .4);
+    color: grey;
+}
+
+.info-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(93, 193, 185, .4);
+    color: grey;
+}
+
+.info-13{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 0, 255, .4);
+    color: grey;
+}
+
+.info-14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 0, .4);
+    color: grey;
+}
+
+.info-15{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 128, .4);
+    color: grey;
 }
