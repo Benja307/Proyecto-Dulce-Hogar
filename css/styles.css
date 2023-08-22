@@ -15,6 +15,7 @@
 }
 
 .logo a img{
+    margin: 10px;
     width: 9rem;
 }
 
@@ -80,4 +81,58 @@ i{
 
 .icons{
     margin: 1rem;
+}
+
+/* Promociones */
+
+
+.promos{
+    display: flex;
+    justify-content: center;
+}
+
+.promos p{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+    gap: 5px;
+}
+
+.grid-item{
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.grid-item p{
+    font-size: 1.5em;
+    width: 40%;
+    text-align: center;
+    margin: 1.2rem;
+}
+
+.primer-item{
+    background-image: url('../img/fondo-rojo-brillante-dulces-gomosos-gomosos-rizados.jpg');
+    background-size: cover;
+}
+
+.primer-item p{
+    color: white;
+    background-color: rgba(256, 0, 0, .4);
+}
+
+.segundo-item{
+    background-image: url('../img/besos_de_frutilla_fini-foto-2__69853.jpg');
+    background-size: cover;
+}
+
+.segundo-item p{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 192, 203, .5);
 }
