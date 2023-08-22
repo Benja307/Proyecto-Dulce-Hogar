@@ -1,2 +1,83 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    text-align: center;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo a img{
+    width: 9rem;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+header nav ul li{
+    margin: 0.7rem;
+    font-size: 1.5rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+article{
+    display: flex;
+    align-items: center;
+}
+
+.par{
+    flex-direction: row-reverse;
+}
+
+main article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main article div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+main article div h4{
+    font-size: 2rem;
+}
+
+main article p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin: 3rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.icons{
+    margin: 1rem;
+}
